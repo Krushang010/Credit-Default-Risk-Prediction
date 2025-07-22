@@ -39,7 +39,7 @@ with row3[0]:
 with row3[1]:
     credit_utilization_ratio = st.slider('📈 Credit Utilization Ratio (%)', min_value=0, max_value=100, value=30)
 with row3[2]:
-    num_open_accounts = st.selectbox('📂 Open Loan Accounts', [1, 2, 3, 4], index=1)
+    num_open_accounts = st.selectbox('📂 Open Loan Accounts', [0, 1, 2, 3, 4], index=1)
 
 # Section 4: Categorical Features
 st.markdown("### 🏠 Loan Details & Lifestyle")
