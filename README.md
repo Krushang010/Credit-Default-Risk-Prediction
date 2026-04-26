@@ -1,5 +1,7 @@
 # 🔍 Credit Risk Modeling & Scorecard System
 
+🚀 **Live App:** https://credit-default-risk-prediction.streamlit.app/
+
 This project implements an end-to-end credit risk assessment system to predict **Probability of Default (PD)** and generate a **scorecard-based credit score** using industry-standard techniques.
 
 ---
@@ -79,8 +81,6 @@ Output:
 pip install -r requirements.txt  
 streamlit run main.py  
 
-Then open:  
-http://localhost:8501  
 
 ---
 
